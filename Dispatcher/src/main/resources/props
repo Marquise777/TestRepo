@@ -1,0 +1,6 @@
+server.port=8787
+weather.service.url=http://localhost:8585/weather/{city}
+currency.conversion.service.url=http://localhost:8181/currency/conversion?base={base}&counter={currency}&date={date}
+currency.conversion.dollars.url=http://localhost:8181/currency/conversion/dollars?counter={currency}&date={date}
+google.iFeelLucky.url=http://localhost:8383/googleit?term={term}
+google.howManyResults.url=http://localhost:8383/googleit/results/amount?term={term}
